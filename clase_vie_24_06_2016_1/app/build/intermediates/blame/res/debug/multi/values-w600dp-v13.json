@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "/Users/ernesto_ruiz1987/Desktop/login_falso/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/ernesto_ruiz1987/Desktop/login_falso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/ernesto_ruiz1987/Desktop/login_falso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/ernesto_ruiz1987/Documents/trabajo/android_poc/2016-05-31/respaldo_app/login_falso/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/ernesto_ruiz1987/Documents/trabajo/android_poc/2016-05-31/respaldo_app/login_falso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/ernesto_ruiz1987/Documents/trabajo/android_poc/2016-05-31/respaldo_app/login_falso/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    }
+]
