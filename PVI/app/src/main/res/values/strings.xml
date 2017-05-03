@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">PVI 0.9.4</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Ingresar al Sistema</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="error_invalid_email">Usuario no valido</string>
+    <string name="error_invalid_password">Password demasiado corta</string>
+    <string name="error_incorrect_password">Pasword incorrecta</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string-array name="proyectos_array">
+        <item>Edificio 1 </item>
+        <item>Edificio 2</item>
+        <item>Edificio 3</item>
+        <item>Condominio 1</item>
+        <item>Condominio 2</item>
+        <item>Condominio 3</item>
+    </string-array>
+    <string-array name="deptos_array">
+        <item>Depto 1 </item>
+        <item>Depto 2</item>
+        <item>Depto 3</item>
+        <item>Depto 4</item>
+        <item>Depto 5</item>
+        <item>Depto 6</item>
+    </string-array>
+    <string name="seleccion_gestion"> Gestión Entrega </string>
+    <string name="seleccion_proyecto">Selecciona el Proyecto</string>
+    <string name="seleccion_etapa">Selecciona la Etapa</string>
+    <string name="seleccion_propiedad">Selecciona la Propiedad</string>
+    <string name="action_ingresar">Ir al Proyecto</string>
+    <string name="action_entregar">Entregar Propiedad</string>
+    <string name="action_entregar_tercero">Entrega a Terceros</string>
+    <string name="action_reclamo">Abrir Reclamo</string>
+    <string name="action_agregar_lugar">Agregar Lugar</string>
+    <string name="action_agregar_item">Agregar Item</string>
+    <string name="action_cumple_todo">Cumple Todo</string>
+    <string name="action_agregar_foto">Agregar Imagenes</string>
+    <string name="action_terminar">Finalizar</string>
+    <string name="action_sincronizar_datos">Sincronizar Datos</string>
+    <string name="action_finalizar_check">Finalizar Checklist</string>
+    <string name="titulo_formulario">Formulario de Entrega</string>
+    <string name="title_activity_agregar_foto">Agregar Detalle Problemas</string>
+    <string name="action_agregar_recinto">Agregar Recinto</string>
+    <string name="label_key">Ingresa la <b>KEY</b> de tu inmobiliaria</string>
+    <string name="action_ingresar_key">Ingresar Key</string>
+</resources>

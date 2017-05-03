@@ -1,0 +1,101 @@
+{
+  "id_proyecto": 47,
+  "propiedades": [
+    {
+      "id_propiedad": 1494,
+      "id_tipo_casa": 1002,
+      "id_tipo_checklist": 3,
+      "etapa": "ETAPA A",
+      "estado": "POR ENTREGAR",
+      "direccion": "LOA - DEPTO. 201",
+      "lote_manzana": "A",
+      "estacionamientos": "",
+      "bodega": "",
+      "fecha_carga": "01/01/2015 16:05:23",
+      "fecha_rec_municipal": "01/01/2016",
+      "fecha_entrega": "25/06/2016",
+      "fecha_inscripcion_cbr": "25/03/2016",
+      "cod_gtia_estrucutural": "",
+      "cod_gtia_instalaciones": "",
+      "cod_gtia_terminaciones": "",
+      "propietarios": [
+        {
+          "nombre": "Eliana Cabello",
+          "rut": "15634987-6",
+          "email": "eliana@gmail.com",
+          "tel_celular": 986754332,
+          "tel_particular": 225698665,
+          "tel_comercial": 226543469,
+          "tel_comercial_2": ""
+        }
+      ]
+    },
+    {
+      "id_propiedad": 1495,
+      "id_tipo_casa": 1002,
+      "id_tipo_checklist": 3,
+      "etapa": "ETAPA A",
+      "estado": "POR ENTREGAR",
+      "direccion": "LOA - DEPTO. 202",
+      "lote_manzana": "A",
+      "estacionamientos": "",
+      "bodega": "",
+      "fecha_carga": "01/01/2015 16:05:23",
+      "fecha_rec_municipal": "01/01/2016",
+      "fecha_entrega": "25/06/2016",
+      "fecha_inscripcion_cbr": "25/03/2016",
+      "cod_gtia_estrucutural": "",
+      "cod_gtia_instalaciones": "",
+      "cod_gtia_terminaciones": "",
+      "propietarios": [
+        {
+          "nombre": "Eliana Cabello",
+          "rut": "15634987-6",
+          "email": "eliana@gmail.com",
+          "tel_celular": 986754332,
+          "tel_particular": 225698665,
+          "tel_comercial": 226543469,
+          "tel_comercial_2": ""
+        }
+      ]
+    },
+    {
+      "id_propiedad": 1496,
+      "id_tipo_casa": 1002,
+      "id_tipo_checklist": 4,
+      "etapa": "ETAPA A",
+      "estado": "ENTREGADO",
+      "direccion": "LOA - DEPTO. 203",
+      "lote_manzana": "A",
+      "estacionamientos": "",
+      "bodega": "",
+      "fecha_carga": "26/02/2015 10:05:23",
+      "fecha_rec_municipal": "01/05/2016",
+      "fecha_entrega": "25/05/2016",
+      "fecha_inscripcion_cbr": "30/03/2016",
+      "cod_gtia_estrucutural": "COD1",
+      "cod_gtia_instalaciones": "COD2",
+      "cod_gtia_terminaciones": "COD3",
+      "propietarios": [
+        {
+          "nombre": "Jaime Perez",
+          "rut": "1255896-K",
+          "email": "jaimikus@gmail.com",
+          "tel_celular": 912345678,
+          "tel_particular": "",
+          "tel_comercial": 226543469,
+          "tel_comercial_2": ""
+        },
+        {
+          "nombre": "Jaime Perez Jr",
+          "rut": "1255896-K",
+          "email": "jaimikus_mini@gmail.com",
+          "tel_celular": 987654321,
+          "tel_particular": 226543469,
+          "tel_comercial": "",
+          "tel_comercial_2": ""
+        }
+      ]
+    }
+  ]
+}

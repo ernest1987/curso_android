@@ -1,0 +1,36 @@
+{
+  "proyectos": [
+    {
+      "id_proyecto": 39,
+      "nombre": "PRUEBA",
+      "nombrecorto": "PRU",
+      "path_archivos": "CLIENTES/crillon/upload/PRUEBA",
+      "direccion": "",
+      "fecha_carga": "0000-00-00 00:00:00"
+    },
+    {
+      "id_proyecto": 47,
+      "nombre": "LOS ALERCES",
+      "nombrecorto": "LOA",
+      "path_archivos": "CLIENTES/pvi_ventas/upload/LOS_ALERCES",
+      "direccion": "LA SERENA",
+      "fecha_carga": "0000-00-00 00:00:00"
+    },
+    {
+      "id_proyecto": 51,
+      "nombre": "EDIFICIO PLANOK",
+      "nombrecorto": "EP",
+      "path_archivos": "CLIENTES/ventas/upload/EDIFICIO_PLANOK",
+      "direccion": "NUEVA DE LYON Nº072 OF 301",
+      "fecha_carga": "0000-00-00 00:00:00"
+    },
+    {
+      "id_proyecto": 52,
+      "nombre": "CASAS PLANOK",
+      "nombrecorto": "CP",
+      "path_archivos": "CLIENTES/ventas/upload/CASAS_PLANOK",
+      "direccion": "NUEVA DE LYON Nº 072",
+      "fecha_carga": "0000-00-00 00:00:00"
+    }
+  ]
+}

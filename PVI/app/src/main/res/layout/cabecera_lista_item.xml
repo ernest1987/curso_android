@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginLeft="15dp"
+    android:background="@color/DarkGray">
+
+
+    <TextView
+        android:id="@+id/nombre_cab_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="ITEM"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/nombre_cab_cumple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="CUMPLE"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nombre_cab_falla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="FALLA"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/nombre_cab_cumple"
+        android:layout_toEndOf="@+id/nombre_cab_cumple"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/nombre_cab_detalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="DETALLE"
+        android:layout_alignTop="@+id/nombre_cab_falla"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+</RelativeLayout>

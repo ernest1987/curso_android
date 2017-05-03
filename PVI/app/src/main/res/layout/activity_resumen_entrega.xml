@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="planok.cl.android.pvi.FormularioEntrega">
+
+    <TextView
+        android:id="@+id/titulo_formulario_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/titulo_formulario"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titulo_formulario_r">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/contenedor_datos_propiedad_r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes">
+
+                <TextView
+                    android:id="@+id/titulo_propiedad_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="Propiedad"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titulo_propiedad_r"
+                    android:layout_marginTop="10dp"
+                    android:stretchColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Proyecto : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/nombre_proyecto_r"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="F. Rec. Municipal : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="01/01/2008" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Etapa : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/nombre_etapa_r"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="F. Entega : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="01/01/2008" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Dirección : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/direccion_r"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="F. Inscripción CBR : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="01/01/2008" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Lote/Manzana : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="No Disponible" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Cad. Gtia Estructural : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="No Disponible" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="N° Estacionamiento : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="No Disponible" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Cad. Gtia Instalaciones : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="No Disponible" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Bodega : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="No Disponible" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Cad. Gtia Terminaciones : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="No Disponible" />
+                    </TableRow>
+
+                </TableLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/contenedor_datos_propietario_r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes">
+
+                <TextView
+                    android:id="@+id/titulo_propietario_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:text="Propietario"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:id="@+id/tabla_datos_propietarios_r"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titulo_propietario_r"
+                    android:layout_marginTop="10dp"
+                    android:stretchColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Nombre : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/nombre_propietario_r"
+                            android:layout_width="150dp"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="Jaime Perez" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Teléfono celular : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/telefono_celular_r"
+                            android:layout_width="150dp"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="+56221234567" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="RUT : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/rut_propietario"
+                            android:layout_width="150dp"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="12,345,678-9" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Teléfono particular : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/telefono_particular_r"
+                            android:layout_width="150dp"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="+56221234567" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Email : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/email_propietario_r"
+                            android:layout_width="150dp"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="jaimikus@jaimikus.cl" />
+
+                        <TextView
+                            android:padding="3dip"
+                            android:text="Teléfono Comercial : "
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/telefono_comercial_r"
+                            android:layout_width="150dp"
+                            android:gravity="left"
+                            android:padding="3dip"
+                            android:text="+56221234567" />
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/contenedor_datos_entrega_r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordes">
+
+                <TextView
+                    android:id="@+id/titulo_entrega_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="20dp"
+                    android:text="Datos de Entrega"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/tabla_datos_accesorios_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/titulo_entrega_r"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/titulo_accesorios_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="5dp"
+                        android:text="  Accesorios y Manuales  "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/titulo_llaves_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo_accesorios_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Llaves de Acceso :  "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_llaves_r"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_llaves_r"
+                        android:layout_toEndOf="@+id/titulo_llaves_r"
+                        android:layout_toRightOf="@+id/titulo_llaves_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="6"
+                        android:enabled="false"
+                        android:inputType="number"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_llaves_int_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_llaves_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_llaves_r"
+                        android:layout_below="@+id/titulo_llaves_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Llaves Interiores :  "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_llaves_int_r"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_llaves_int_r"
+                        android:layout_toEndOf="@+id/titulo_llaves_int_r"
+                        android:layout_toRightOf="@+id/titulo_llaves_int_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="3"
+                        android:enabled="false"
+                        android:inputType="number"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_porton_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_llaves_int_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_llaves_int_r"
+                        android:layout_below="@+id/titulo_llaves_int_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Control Portón :  "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_porton_r"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_porton_r"
+                        android:layout_toEndOf="@+id/titulo_porton_r"
+                        android:layout_toRightOf="@+id/titulo_porton_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="1"
+                        android:enabled="false"
+                        android:inputType="number"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_tapones_lavamanos_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_porton_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_porton_r"
+                        android:layout_below="@+id/titulo_porton_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Tapones de Lavamanos"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_tapones_lavamanos_r"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_tapones_lavamanos_r"
+                        android:layout_toEndOf="@+id/titulo_tapones_lavamanos_r"
+                        android:layout_toRightOf="@+id/titulo_tapones_lavamanos_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="3"
+                        android:enabled="false"
+                        android:inputType="number"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_llave_jardin_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_tapones_lavamanos_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_tapones_lavamanos_r"
+                        android:layout_below="@+id/titulo_tapones_lavamanos_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Llave Jardín"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_llave_jardin_r"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_llave_jardin_r"
+                        android:layout_toEndOf="@+id/titulo_llave_jardin_r"
+                        android:layout_toRightOf="@+id/titulo_llave_jardin_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="2"
+                        android:enabled="false"
+                        android:inputType="number"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tabla_datos_medidores_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/tabla_datos_accesorios_r"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/titulo_estado_medidores_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="5dp"
+                        android:text=" Lectura Medidores  "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/titulo_medidor_agua_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo_estado_medidores_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Agua Fría            "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_medidor_agua_r"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_medidor_agua_r"
+                        android:layout_toEndOf="@+id/titulo_medidor_agua_r"
+                        android:layout_toRightOf="@+id/titulo_medidor_agua_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="47.09"
+                        android:enabled="false"
+                        android:inputType="number|numberDecimal"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_medidor_agua_caliente_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_medidor_agua_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_medidor_agua_r"
+                        android:layout_below="@+id/titulo_medidor_agua_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Agua Caliente"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_medidor_agua_caliente_r"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_medidor_agua_caliente_r"
+                        android:layout_toEndOf="@+id/titulo_medidor_agua_caliente_r"
+                        android:layout_toRightOf="@+id/titulo_medidor_agua_caliente_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="3.07"
+                        android:enabled="false"
+                        android:inputType="number|numberDecimal"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_medidor_electrico_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_medidor_agua_caliente_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_medidor_agua_caliente_r"
+                        android:layout_below="@+id/titulo_medidor_agua_caliente_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Luz  "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_medidor_electrico_r"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_medidor_electrico_r"
+                        android:layout_toEndOf="@+id/titulo_medidor_electrico_r"
+                        android:layout_toRightOf="@+id/titulo_medidor_electrico_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="2.7"
+                        android:enabled="false"
+                        android:inputType="number|numberDecimal"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_medidor_gas_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_medidor_electrico_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_medidor_electrico_r"
+                        android:layout_below="@+id/titulo_medidor_electrico_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Gas  "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_medidor_gas_r"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_medidor_gas_r"
+                        android:layout_toEndOf="@+id/titulo_medidor_gas_r"
+                        android:layout_toRightOf="@+id/titulo_medidor_gas_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="2.7"
+                        android:enabled="false"
+                        android:inputType="number|numberDecimal"
+                        android:padding="3dip" />
+
+                    <TextView
+                        android:id="@+id/titulo_medidor_calefaccion_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_medidor_gas_r"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_medidor_gas_r"
+                        android:layout_below="@+id/titulo_medidor_gas_r"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Calefacción  "
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_medidor_calefaccion_r"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_medidor_calefaccion_r"
+                        android:layout_toEndOf="@+id/titulo_medidor_calefaccion_r"
+                        android:layout_toRightOf="@+id/titulo_medidor_calefaccion_r"
+                        android:background="@drawable/bordes_negros_flat"
+                        android:gravity="center"
+                        android:text="2.7"
+                        android:enabled="false"
+                        android:inputType="number|numberDecimal"
+                        android:padding="3dip" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tabla_datos_carpeta_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_below="@+id/titulo_entrega_r"
+                    android:layout_toRightOf="@+id/tabla_datos_medidores_r"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/titulo_contenido_carpeta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="5dp"
+                        android:text=" Contenido de la Carpeta  "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/titulo_manual_propietario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo_contenido_carpeta"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Manual de Propietario, mantenciones"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check_medidor_agua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:layout_alignBottom="@+id/titulo_manual_propietario"
+                        android:layout_toEndOf="@+id/titulo_manual_propietario"
+                        android:layout_toRightOf="@+id/titulo_manual_propietario" />
+
+
+                    <TextView
+                        android:id="@+id/titulo_ficha_tecnica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_manual_propietario"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_manual_propietario"
+                        android:layout_below="@+id/titulo_manual_propietario"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Ficha técnica"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check_ficha_tecnica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:layout_alignBottom="@+id/titulo_ficha_tecnica"
+                        android:layout_toEndOf="@+id/titulo_ficha_tecnica"
+                        android:layout_toRightOf="@+id/titulo_ficha_tecnica" />
+
+                    <TextView
+                        android:id="@+id/titulo_ficha_emergencia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_ficha_tecnica"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_ficha_tecnica"
+                        android:layout_below="@+id/titulo_ficha_tecnica"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Ficha de Emergencia"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check_ficha_emergencia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:layout_alignBottom="@+id/titulo_ficha_emergencia"
+                        android:layout_toEndOf="@+id/titulo_ficha_emergencia"
+                        android:layout_toRightOf="@+id/titulo_ficha_emergencia" />
+
+                    <TextView
+                        android:id="@+id/titulo_cd_recomendaciones"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_ficha_emergencia"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_ficha_emergencia"
+                        android:layout_below="@+id/titulo_ficha_emergencia"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="CD de Recomendaciones"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check_cd_recomendaciones"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:layout_alignBottom="@+id/titulo_cd_recomendaciones"
+                        android:layout_toEndOf="@+id/titulo_cd_recomendaciones"
+                        android:layout_toRightOf="@+id/titulo_cd_recomendaciones" />
+
+                    <TextView
+                        android:id="@+id/titulo_reglamento_copropiedad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_cd_recomendaciones"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_cd_recomendaciones"
+                        android:layout_below="@+id/titulo_cd_recomendaciones"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Reglamento de Copropiedad"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check_reglamento_copropiedad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:layout_alignBottom="@+id/titulo_reglamento_copropiedad"
+                        android:layout_toEndOf="@+id/titulo_reglamento_copropiedad"
+                        android:layout_toRightOf="@+id/titulo_reglamento_copropiedad" />
+
+                    <TextView
+                        android:id="@+id/titulo_regalo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_reglamento_copropiedad"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_reglamento_copropiedad"
+                        android:layout_below="@+id/titulo_reglamento_copropiedad"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Regalo"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check_regalo"
+                        android:layout_width="wrap_content"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/titulo_regalo"
+                        android:layout_toEndOf="@+id/titulo_regalo"
+                        android:layout_toRightOf="@+id/titulo_regalo" />
+
+                    <TextView
+                        android:id="@+id/titulo_manual_laminado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/titulo_regalo"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignRight="@+id/titulo_regalo"
+                        android:layout_below="@+id/titulo_regalo"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Manual de mantención piso laminado"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/check_manual_laminado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:enabled="false"
+                        android:layout_alignBottom="@+id/titulo_manual_laminado"
+                        android:layout_toEndOf="@+id/titulo_manual_laminado"
+                        android:layout_toRightOf="@+id/titulo_manual_laminado" />
+
+                    <Button
+                        android:id="@+id/btn_resumen_checklist"
+                        style="?android:textAppearanceSmall"
+                        android:layout_below="@+id/titulo_manual_laminado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Red"
+                        android:text="    Resumen Checklist    "
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <Button
+                        android:id="@+id/btn_datos_recepcion"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/Red"
+                        android:text="    Datos Recepción    "
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/btn_resumen_checklist"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignLeft="@+id/btn_resumen_checklist"
+                        android:layout_marginTop="10dp"
+                        android:layout_alignStart="@+id/btn_resumen_checklist"
+                        android:layout_alignRight="@+id/btn_resumen_checklist"
+                        android:layout_alignEnd="@+id/btn_resumen_checklist" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/contenedor_firmas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/scrollView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/scrollView"
+                android:layout_below="@+id/scrollView"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:id="@+id/contenedor_firma_inmobiliaria"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:background="@color/Cornsilk">
+                    <!--android:background="@drawable/bordes"-->
+                    <TextView
+                        android:id="@+id/titulo_inmobiliaria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="INMOBILIARIA"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <!--<TextView
+                        android:id="@+id/txt_rut_inmobiliaria_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo_inmobiliaria"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="RUT : "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/rut_inmobiliara_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/txt_rut_inmobiliaria_final"
+                        android:layout_alignEnd="@+id/titulo_inmobiliaria"
+                        android:layout_alignRight="@+id/titulo_inmobiliaria"
+                        android:layout_toRightOf="@+id/txt_rut_inmobiliaria_final"
+                        android:gravity="left"
+                        android:padding="3dip"
+                        android:textSize="18sp" />-->
+
+                    <TextView
+                        android:id="@+id/txt_firma_inmobiliaria_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo_inmobiliaria"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Firma : "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/firma_inmobiliaria_final"
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/titulo_inmobiliaria"
+                        android:layout_toRightOf="@+id/txt_firma_inmobiliaria_final"
+                        android:clickable="true"
+                        android:padding="3dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/contenedor_firma_propietarios"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:background="@color/Moccasin">
+                    <!--android:background="@drawable/bordes"-->
+                    <TextView
+                        android:id="@+id/titulo_propietario_firma"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text=" PROPIETARIO "
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <!--<TextView
+                        android:id="@+id/txt_rut_propietario_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo_propietario_firma"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="RUT : "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/rut_propietario_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/txt_rut_propietario_final"
+                        android:layout_alignEnd="@+id/titulo_propietario_firma"
+                        android:layout_alignRight="@+id/titulo_propietario_firma"
+                        android:layout_toRightOf="@+id/txt_rut_propietario_final"
+                        android:gravity="left"
+                        android:padding="3dip"
+                        android:textSize="18sp" />-->
+
+                    <TextView
+                        android:id="@+id/txt_firma_propietario_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/titulo_propietario_firma"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:padding="3dip"
+                        android:text="Firma : "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/firma_propietario_final"
+                        android:layout_width="130dp"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/titulo_propietario_firma"
+                        android:layout_toRightOf="@+id/txt_firma_propietario_final"
+                        android:clickable="true"
+                        android:padding="3dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--<Button
+                android:id="@+id/btn_finalizar_entrega"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contenedor_firmas"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/btn_verde_estandar"
+                android:text="    Finalizar Entrega    "
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="right" />-->
+
+            <RelativeLayout
+                android:id="@+id/contenedor_botones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_aceptar_entrega"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/Green"
+                    android:text="    Finalizar Entrega    "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_aceptar_obs"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/Yellow"
+                    android:text="   Finalizar con Observ.   "
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_rechazar_entrega"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/btn_aceptar_entrega"
+                    android:background="@color/Red"
+                    android:text="    Rechazar Entrega    "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

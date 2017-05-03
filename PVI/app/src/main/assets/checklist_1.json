@@ -1,0 +1,141 @@
+{
+  "id_checklist": 1,
+  "recintos": [
+    {
+      "id_recinto": 10002,
+      "nombre_recinto": "Baño 1",
+      "cumple_todo": "",
+      "lugar": [
+        {
+          "id_lugar": 10003,
+          "nombre_lugar": "Accesorio Baño",
+          "items": [
+            {
+              "id_item": 10126,
+              "nombre_item": "Espejo",
+              "cumple": "",
+              "detalle": "",
+              "fotografias_asociadas": [
+                {
+                  "nombre_foto": "Foto123456.jpg",
+                  "ruta_foto": "Fotos/item_1/"
+                },
+                {
+                  "nombre_foto": "TechoMalo.jpg",
+                  "ruta_foto": "Fotos/item_1/"
+                }
+              ]
+            },
+            {
+              "id_item": 10173,
+              "nombre_item": "Jabonera",
+              "cumple": false,
+              "detalle": "Jabonera mal colocada",
+              "fotografias_asociadas": [
+                {
+                  "nombre_foto": "FotoA1456.jpg",
+                  "ruta_foto": "Fotos/item_2/"
+                }
+              ]
+            },
+            {
+              "id_item": 10226,
+              "nombre_item": "Percha",
+              "cumple": "",
+              "detalle": "",
+              "fotografias_asociadas": []
+            }
+          ]
+        },
+        {
+          "id_lugar": 10087,
+          "nombre_lugar": "Griferia Lavamanos",
+          "items": [
+            {
+              "id_item": 10068,
+              "nombre_item": "Cartucho",
+              "cumple": true,
+              "detalle": "Todo esta en orden",
+              "fotografias_asociadas": []
+            },
+            {
+              "id_item": 10145,
+              "nombre_item": "Flexible",
+              "cumple": "",
+              "detalle": "",
+              "fotografias_asociadas": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_recinto": 10033,
+      "nombre_recinto": "Cocina",
+      "cumple_todo": "",
+      "lugar": [
+        {
+          "id_lugar": 10067,
+          "nombre_lugar": "Encimera a Gas",
+          "items": [
+            {
+              "id_item": 10078,
+              "nombre_item": "Chispero",
+              "cumple": "",
+              "detalle": "",
+              "fotografias_asociadas": [
+                {
+                  "nombre_foto": "Foto123456.jpg",
+                  "ruta_foto": "Fotos/item_301/"
+                },
+                {
+                  "nombre_foto": "TechoMalo.jpg",
+                  "ruta_foto": "Fotos/item_301/"
+                }
+              ]
+            },
+            {
+              "id_item": 10105,
+              "nombre_item": "Cuerpo Vitroceramica",
+              "cumple": true,
+              "detalle": "",
+              "fotografias_asociadas": [
+                {
+                  "nombre_foto": "FotoA1456.jpg",
+                  "ruta_foto": "Fotos/item_302/"
+                }
+              ]
+            },
+            {
+              "id_item": 10257,
+              "nombre_item": "Quemadores",
+              "cumple": "",
+              "detalle": "",
+              "fotografias_asociadas": []
+            }
+          ]
+        },
+        {
+          "id_lugar": 10148,
+          "nombre_lugar": "Refrigerador",
+          "items": [
+            {
+              "id_item": 10102,
+              "nombre_item": "Cuerpo Exterior",
+              "cumple": true,
+              "detalle": "Todo esta en orden",
+              "fotografias_asociadas": []
+            },
+            {
+              "id_item": 10254,
+              "nombre_item": "Puerta",
+              "cumple": "",
+              "detalle": "",
+              "fotografias_asociadas": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

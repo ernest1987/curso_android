@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/lbl_dialogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text=" Ingresa un comentario"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <AutoCompleteTextView
+        android:id="@+id/texto_comentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:lines="5"
+        android:hint="Ingresa comentario"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
